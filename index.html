@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priya | Cyber Security Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">&lt;Priya/&gt;</div>
+    <button id="menuBtn" aria-label="Toggle menu">&#9776;</button>
+    <nav id="navMenu">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="avatar">P</div>
+      <h1>Hi, I'm Priya</h1>
+      <p class="tagline">I am a <span id="typing"></span><span class="cursor">|</span></p>
+      <p class="intro">I'm a B.E. Cyber Security student at Prathyusha Engineering College, Anna University. I'm building my skills in networking, penetration testing and secure web development, with a goal of becoming an ethical hacker.</p>
+      <div class="buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </section>
+
+    <section id="education" class="reveal">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>B.E. Cyber Security</h3>
+        <p>Prathyusha Engineering College, affiliated to Anna University</p>
+        <p class="meta">2024 - 2028 | CGPA: 8.0+</p>
+      </div>
+      <div class="card">
+        <h3>Higher Secondary (12th Standard)</h3>
+        <p>State Board, Tamil Nadu</p>
+        <p class="meta">Completed 2024</p>
+      </div>
+    </section>
+
+    <section id="skills" class="reveal">
+      <h2>Skills</h2>
+      <h3 class="sub">Technical</h3>
+      <ul class="skill-list">
+        <li>Networking</li>
+        <li>Nmap</li>
+        <li>Wireshark</li>
+        <li>Burp Suite</li>
+        <li>Kali Linux</li>
+        <li>Python</li>
+        <li>HTML / CSS / JavaScript</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+      <h3 class="sub">Soft skills</h3>
+      <ul class="skill-list soft">
+        <li>Problem solving</li>
+        <li>Teamwork</li>
+        <li>Communication</li>
+        <li>Quick learner</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="reveal">
+      <h2>Internship &amp; Industry Visit</h2>
+      <div class="card">
+        <h3>Cyber Security Virtual Internship</h3>
+        <p>Forage (Deloitte) - Virtual job simulation</p>
+        <p class="meta">Worked on tasks such as analysing data and identifying security issues.</p>
+      </div>
+      <div class="card">
+        <h3>Industry Visit</h3>
+        <p>Technology company / data centre visit</p>
+        <p class="meta">Learned how real teams monitor networks, handle incidents and protect data.</p>
+      </div>
+      <h3 class="sub">Certifications</h3>
+      <ul class="skill-list">
+        <li>Cisco Networking Academy</li>
+        <li>Deloitte (Forage)</li>
+        <li>NASSCOM</li>
+        <li>MongoDB</li>
+        <li>WsCube Tech</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <h3>Weather Dashboard</h3>
+          <p>Search any city and see live temperature, humidity and wind using the OpenWeather API, with error handling and travel suggestions.</p>
+          <p class="meta">HTML, CSS, JavaScript, API</p>
+          <a href="https://github.com/priya-07-G" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+        <div class="card">
+          <h3>College Event Portal</h3>
+          <p>A responsive multi-page website with event listings, filters, a registration form with validation, gallery and contact page.</p>
+          <p class="meta">HTML, CSS, JavaScript</p>
+          <a href="https://github.com/priya-07-G" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+        <div class="card">
+          <h3>Personal Portfolio</h3>
+          <p>This website: a responsive dark-themed portfolio with a mobile menu, typing effect and a validated contact form.</p>
+          <p class="meta">HTML, CSS, JavaScript</p>
+          <a href="https://github.com/priya-07-G" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="reveal">
+      <h2>Contact</h2>
+      <p class="intro">Have a question or want to work together? Send me a message.</p>
+      <p>GitHub: <a href="https://github.com/priya-07-G" target="_blank" rel="noopener">priya-07-G</a></p>
+      <form id="contactForm" class="form-box" novalidate>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="you@example.com">
+        <label for="msg">Message</label>
+        <textarea id="msg" rows="4" placeholder="Your message"></textarea>
+        <button type="submit">Send</button>
+        <p id="formMsg"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Priya | Built with HTML, CSS and JavaScript</p>
+  </footer>
+
+  <a href="#about" id="toTop" aria-label="Back to top">&uarr;</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
